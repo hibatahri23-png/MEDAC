@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio extra-->
+<plataforma>
+    <cursos>
+        <titulo>Curso de XML</titulo>
+        <profesor>Sergio</profesor>
+        <duracion>9 meses</duracion>
+        <nivel>Intermedio</nivel>
+        <alumnos>
+            <alumno>
+                <nombre>Juan</nombre>
+                <email>juan@example.com</email>
+            </alumno>
+            <alumno>
+                <nombre>Paco</nombre>
+                <email>paco@example.com</email>
+            </alumno>
+        </alumnos>
+        <curso>Programación Java</curso>
+        <profesor>Efrén</profesor>
+        <duracion>9 meses</duracion>
+        <nivel>Avanzado</nivel>
+        <alumnos>
+            <alumno>
+                <nombre>Lucía</nombre>
+                <email>lucia@example.com</email>
+            </alumno>
+            <alumno>
+                <nombre>Pepe</nombre>
+                <email>pepe@example.com</email>
+            </alumno>
+        </alumnos>
+    </cursos>
+</plataforma>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<canales>
+    <canal
+        xmlns:canalAgua="IdentificadorCanalAgua"
+        xmlns:canalTelevision="IdentificadorCanalTelevision">
+
+        <canalAgua:canal>
+        <ubicacion>Segovia</ubicacion>
+        <capacidad>300 litros</capacidad>
+        </canalAgua:canal>
+
+        <canalTelevision:canal>
+            <cadena>Antena 3</cadena>
+            <frequencia>698 MHz</frequencia>
+        </canalTelevision:canal>
+
+    </canal>
+</canales>

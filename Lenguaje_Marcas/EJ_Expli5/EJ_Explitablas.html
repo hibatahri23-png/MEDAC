@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas_Explicativas</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: red">
+            <col style="background-color: yellow">
+        </colgroup>
+      
+            <caption>Fruteria</caption>
+    <thead>
+        <tr>
+            <th>Fruta</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Melón</td>
+            <td>Verde</td>
+
+        </tr>
+        <tr>
+            <td>Platano</td>
+            <td rowspan="2" >Amarillo</td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Frutas totales: 3</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>

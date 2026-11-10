@@ -1,0 +1,25 @@
+h2{
+            color:red;
+        }
+        p{
+            color: blue;
+        }
+        .Clase_ejemplo{
+            font-family: Verdana;
+        }
+        #idEjemplo{
+            font-family: comic sans;
+            color: saddlebrown;
+        }
+
+        ul li{
+            background-color: aqua;
+        }
+
+        th, td, table, caption{
+            border: solid 2px green
+        }
+        
+        div{
+            background-color: bisque;
+        }

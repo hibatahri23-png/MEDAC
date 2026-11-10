@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <seccion>
+        <nombre>Recursos Humanos</nombre>
+        <empleado>
+            <nombre>Juan Pérez</nombre>
+            <cargo>Gerente</cargo>
+            <sueldo>50000</sueldo>
+        </empleado>
+        <empleado>
+            <nombre>Ana Gómez</nombre>
+            <cargo>Asistente</cargo>
+            <sueldo>30000</sueldo>
+        </empleado>
+    </seccion>
+</empresa>

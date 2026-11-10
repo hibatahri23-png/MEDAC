@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    
+   <persona
+   xmlns:persona="IdentificadorPersona"
+    xmlns:puesto="IdentificadorPuesto">
+      <nombre>Juan</nombre> 
+      <puesto>Desarrollador</puesto> 
+   </persona> 
+   <persona> 
+      <nombre>Lucía</nombre> 
+      <puesto>Diseñadora</puesto> 
+   </persona> 
+</empresa>

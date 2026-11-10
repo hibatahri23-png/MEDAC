@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formsubmit.co/cpidumitras@gmail.com" method="post">
+        <h1>Inscripción torneo videojuegos</h1>
+        <p>Introduce tu nombre completo: <input type="text" name="nombre" size="50" minlength="5" maxlength="50"></p>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Password: <input type="password" name="contraseña" required></label>
+         <label>Mensaje:<textarea name="mensaje" rows="4" cols="25" maxlength="35" tabindex=""></textarea></label>
+        <p>Selecciona el juego:</p>
+        <select name="juego" required>
+        <option value="Minecraft">Minecraft</option>
+        <option value="Mario Kart">Mario Kart</option>
+        <option value="LOL">LOL</option>
+      </select>
+    </label>
+
+    <p>Nivel de habilidad:</p>
+    <label><input type="radio" name="habilidad" value="Principiante" required> Principiante</label>
+    <label><input type="radio" name="habilidad" value="Intermedio"> Intermedio</label>
+    <label><input type="radio" name="habilidad" value="Avanzado"> Avanzado</label>
+
+    <p>Turnos disponibles:</p>
+    <label><input type="checkbox" name="horario" value="Mañana">Mañana</label>
+    <label><input type="checkbox" name="horario" value="Tarde">Tarde</label>
+    <label><input type="checkbox" name="horario" value="Noche">Noche</label>
+        <button type="reset" name="reiniciar" value="reset">Restablecer</button>
+        <button type="submit">inscribirse</button>
+
+    </form>
+</body>
+</html>

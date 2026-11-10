@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Prólogo-->
+<!--Cuerpo-->
+<instituto ciudad="Castellón">
+    <!--etiqueta de apertura alumno-->
+    <alumno id="1">
+        <nombre>Juan</nombre>
+        <apellido>García</apellido>
+        <edad>20</edad>
+        <curso>2º DAM</curso>
+
+    </alumno>
+    <alumno id="2">
+        <nombre>María</nombre>
+        <apellido>González</apellido>
+        <edad>19</edad>
+        <curso>2º DAM</curso>
+    </alumno>
+</instituto>

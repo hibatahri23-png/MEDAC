@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio5-->
+<universidad>
+   <persona
+        xmlns:persona="Identificadorpersona"
+        xmlns:carrera="IdentificadorCarrera">
+
+      <nombre>Ana</nombre> 
+      <carrera>Ingeniería</carrera> 
+   </persona> 
+   <persona> 
+      <nombre>Pedro</nombre> 
+      <carrera>Medicina</carrera> 
+   </persona> 
+</universidad>

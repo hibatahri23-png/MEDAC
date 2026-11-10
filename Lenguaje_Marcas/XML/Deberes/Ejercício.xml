@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Ejercicio1-->
+
+<documento>
+    <Videojuego>
+        <titulo>Undertale</titulo>
+        <genero>RPG</genero>
+        <precio>19.99</precio>
+    </Videojuego>
+
+    <!--Ejercicio2&3-->
+    <biblioteca>
+        <libro id="1">
+            <titulo>El Principito</titulo>
+            <autor>Antoine de Saint-Exupéry</autor>
+            <paginas>96</paginas>
+            <tapaDura>false</tapaDura>
+        </libro>
+        <libro id="2">
+            <titulo>Quijote de la Mancha</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <paginas>863</paginas>
+            <tapaDura>true</tapaDura>
+        </libro>
+    </biblioteca>
+</documento>

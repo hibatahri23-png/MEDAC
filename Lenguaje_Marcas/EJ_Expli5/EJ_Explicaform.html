@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formsubmit.co/cpidumitras@gmail.com" method="post">
+        <h1>Este es un formulario para conocerte un poco más</h1>
+        <p>Introduce tu nombre: <input type="text" name="nombre" size="50" minlength="5" required></p>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Password: <input type="password" name="Abuelitascalientes33" required></label>
+        <label>
+            Mensaje: 
+        <textarea name="Mensaje" rows="4" cols="25" maxlength="35" tabindex="-1"></textarea>
+        
+        </label>
+        <p>Selecciona tu idioma:</p>
+        
+        <label><input type="checkbox" name="idiomas" value="aprendido" checked> Español
+        <input type="checkbox" name="idiomas" value="aprendido"> Inglés
+        <input type="checkbox" name="idiomas" value="aprendido"> Francés
+        </label>
+        <label>
+            <p>Selecciona tu Preferéncia horaria:</p>
+            <p><input type="radio" name="preferéncia horaria" value="dia"> Día</p>
+            <p><input type="radio" name="preferéncia horaria" value="noche"> Noche</p>
+        </label>
+
+        <label>
+            <p>Selecciona tu color favorito:</p>
+            <select name="color" required>
+                <option value="rojo">Rojo</option>
+                <option value="azul">Azul</option>
+                <option value="naranja">Naranja</option>
+                <option value="verde">Verde</option>
+                <option value="nigger">Nigger</option>
+            </select>
+            
+        </label>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Saludar" onclick="alert('HOLAAAA :-)')" disabled>
+        <input type="reset" value="Limpiar" disabled>
+
+        <button type="button" value="Saludar" onclick="alert('System32 fue eliminado satisfactoriamente')">Saludar</button>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

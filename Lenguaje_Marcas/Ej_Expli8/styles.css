@@ -1,0 +1,48 @@
+@font-face {
+    font-family: fuenteDescarga;
+    src: url(go3v2.ttf);
+}
+
+*{
+    font-size: 40px;
+    font-family: fuenteDescarga;
+}
+
+#parrafo1{
+    text-align: right;
+    color: black;
+    background-color: beige;
+    font-family: fuenteDescarga;
+    font-size: 40px;
+}
+
+#lista1{
+    list-style-type: square;
+    list-style-position: esa;
+    font-family: fuenteDescarga;
+}
+
+#Pseudoelementos::first-letter{
+    color: blue;
+}
+#Pseudoelementos::before{
+    content: "👉";
+}
+
+#Pseudoelementos::after{
+    content: "🦖";
+}
+
+table, th, td{
+    border: solid black 1px;
+    text-align: center;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+#parrafoCaja{
+    border: dotted rgb(0, 160, 107);
+    border-top: dotted cyan;
+    border-bottom: dotted red;
+}

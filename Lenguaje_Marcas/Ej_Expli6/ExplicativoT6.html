@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicativo T6</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="Proceso.php" method="post">
+        <label>
+            correo electrónico: <input type="email" placeholder="Correoejemplo@gmail.com" autocomplete="off">
+        </label>
+        <label>
+            Fecha: <input type="date" name="fecha">
+        </label>
+        <label>
+            Hora: <input type="time" name="Hora">
+        </label>
+        <label>
+            Fecha y hora: <input type="datetime-local" name="fechahora">
+        </label>
+        <label>
+            Edad: <input type="number" name="edad" min="10" max="80" step="4">
+        </label>
+        <label>
+            Matricula: <input type="text" name="Matricula" placeholder="1234ABC" title="Formato: 4 números y 3 letras mayusculas" pattern="[0-9]{4}[A-z]{3}">
+        </label>
+        <label>
+            Rango: <input type="range" name="rango" min="0" max="10" value="0" step="0.5">
+            <small>0-10</small>
+        </label>
+
+        <label>
+            Color:
+            <input type="color" name="Cuaso">
+        </label>
+
+        <label>
+            Progreso:
+            <progress max="10" value="5"></progress>
+            <small>50%</small>
+        </label>
+
+        <label>
+            Proccés:
+            <meter max="10" value="5"></meter>
+        </label>
+        <button type="submit" name="Enviar">Enviar</button>
+    </form>
+        <br>
+        <audio src="cancion.mp3" controls loop preload="auto"></audio>
+        <br>
+        <figure>
+        <video src="video.mp4" width="400" height="200" posters="imagenCocina.jpg" controls></video>
+        <figcaption>Mujer cocinando croquetas :D</figcaption>
+        </figure>
+
+        <details>
+        <summary>Tips para cocinar :D</summary>
+            <ol>
+                <li>Lavar el arroz</li>
+                <li>Usar el doble de agua que de arroz</li>
+                <li>Cocinar a fuego bajo</li>
+            </ol>
+        </details>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QLBl4IyabKQ?si=M_lQmFHvSGB2zuXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: azure;
+    font-size: 20px;
+}
+
+h2{
+    color: red;
+}
+
+header{
+    background-color: darkblue;
+
+    text-align: center;
+
+    padding: 20px;
+
+    height: 20vh;
+}
+
+.Presentación{
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Juegos{
+    background-color: white;
+    padding: 20px;
+    margin:  20px;
+}
+
+table, th,td, caption{
+    border: solid 2px cornflowerblue;
+    border-collapse: collapse;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: midnightblue;
+    color: white;
+}
+
+#destacado{
+    background-color: gold;
+    padding: 20px;
+    margin: 20px;
+    width: 80vw;
+}
+
+.Mensaje{
+    color: crimson;
+    font
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
